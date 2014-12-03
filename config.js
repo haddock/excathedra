@@ -10,7 +10,9 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'https://excathedra.herokuapp.com/',
+        url: 'http://www.excathedra.se/',
+        urlSSL: 'https://www.excathedra.se/',
+        fileStorage: false,
         mail: {},
         database: {
             client: 'postgres',
