@@ -1,0 +1,19 @@
+		<!-- Post Header Begin -->
+		<div id="header" class="row full-width-100" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+		{{#if @blog.logo}}<img src="{{@blog.logo}}" class="menu-btn">{{else}}<h4 class="menu-btn text-logo">{{@blog.title}}</h4>{{/if}}
+		<ul class="inline-list right top-padding-10 right-padding">
+		    <li><a href="#"><a href="https://www.facebook.com/" class="facebook" target="_blank"><img src="{{@blog.url}}/assets/img/icons/32/facebook.png" /></a></li>
+		    <li><a href="#"><a href="https://www.twitter.com/" class="twitter" target="_blank"><img src="{{@blog.url}}/assets/img/icons/32/twitter.png" /></a></li>
+		    <!-- <li><a href="#"><a href="https://www.G-PLUS-URL-HERE.com/" class="gplus" target="_blank"><img src="{{@blog.url}}/assets/img/icons/32/google.png" /></a></li> -->
+		</ul>
+			<div class="headline"><h1 id="headline">{{{title}}}</h1></div>
+			<div class="row">
+				<div class="small-6 small-centered columns">
+					<div class="avatar details top-padding-10">
+						<span><img src="{{author.image}}"> by {{author.name}} &bullet; {{date published_at format="MMMM DD, YYYY"}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="arrow"><a href="#content-start"><i class="fa fa-angle-down"></i></a></div>
+		</div>
+		<!-- Post Header End -->
