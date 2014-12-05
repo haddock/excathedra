@@ -3,13 +3,13 @@
 
 
 	// 0. Settings
-	
+
 	var dribbbleWidget = true;		// Set to false to hide widget
 	var dribbbleUser = 'Username';		// Set to your own Dribbble username
 	var dribbbleMaxShots = 6;		// Adjust the number of shots display. Even numbers.
 
 	var disqusComments = true;		// Set to false to hide comments
-	var disqusUser = 'yourdisqus_shortname';	// Set to your own Disqus Shortname
+	var disqusUser = 'excathedra';	// Set to your own Disqus Shortname
 
 
 	// ---!!! DO NOT EDIT BELOW THIS POINT !!!--- //
@@ -25,7 +25,7 @@
 			clearTimeout( resizeTimeOut );
 		resizeTimeOut = setTimeout( sizeSetup, 200 ); //200 is time in miliseconds
 	});
-	
+
 	function sizeSetup() {
 		var fullHeight = $( window ).height() - $( 'body' ).offset().top;
 		var headerHeight = $( '#header' ).height();
