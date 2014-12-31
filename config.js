@@ -10,8 +10,8 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://www.dettaärvatten.se/',
-        urlSSL: 'https://www.dettaärvatten.se/',
+        url: 'http://www.dettaarvatten.se/',
+        urlSSL: 'https://www.dettaarvatten.se/',
         fileStorage: false,
         mail: {},
         database: {
